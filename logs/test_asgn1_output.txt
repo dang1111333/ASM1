@@ -1,0 +1,23 @@
+=== TASK 1: ASGN1 DRIVER IOCTL TEST ===
+[Step 1] Test Version:
+[IOCTL-USER] Phien ban Driver: asgn1_driver v1.0 - Le Minh Dang
+[Step 2] Test Mode 1 (Echo Mode):
+Read back: Hello Echo
+[Step 3] Test Mode 0 (Kernel Mode):
+Read back: [KERNEL]Hello Kernel
+[Step 4] Test Stats:
+=== Thong ke hoat dong Driver ===
+  - So lan mo (open_count)       : 18
+  - So lan ghi (write_count)     : 2
+  - So lan doc (read_count)      : 2
+  - Do dai buffer (buffer_len)   : 21 bytes
+  - Kich thuoc lan ghi cuoi      : 21 bytes
+[Step 5] Test Reset Buffer:
+Read back after reset: []
+=== Thong ke hoat dong Driver ===
+  - So lan mo (open_count)       : 21
+  - So lan ghi (write_count)     : 0
+  - So lan doc (read_count)      : 0
+  - Do dai buffer (buffer_len)   : 0 bytes
+  - Kich thuoc lan ghi cuoi      : 0 bytes
+=== TASK 1 TEST COMPLETED ===

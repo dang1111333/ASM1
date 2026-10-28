@@ -1,0 +1,1 @@
+cmd_/home/dang/embedded_asgn1/task2_misc/Module.symvers := sed 's/\.ko$$/\.o/' /home/dang/embedded_asgn1/task2_misc/modules.order | scripts/mod/modpost    -o /home/dang/embedded_asgn1/task2_misc/Module.symvers -e    -w -T -

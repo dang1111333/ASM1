@@ -1,0 +1,1 @@
+cmd_/home/dang/embedded_asgn1/task1_ioctl/asgn1_driver.ko := arm-linux-gnueabihf-ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/dang/embedded_asgn1/task1_ioctl/asgn1_driver.ko /home/dang/embedded_asgn1/task1_ioctl/asgn1_driver.o /home/dang/embedded_asgn1/task1_ioctl/asgn1_driver.mod.o;  true

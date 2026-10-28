@@ -1,0 +1,24 @@
+=== TASK 2: COUNTER MISC DRIVER TEST ===
+counter_driver: Registered successfully as /dev/counter (major=10, minor=125)
+[Step 1] Initial Read (expect 0):
+0
+[Step 2] Auto-increment Read (expect 1, 2):
+1
+2
+[Step 3] Stats before write/reset:
+=== Counter Device Statistics ===
+Current Counter Value : 3
+Total Read Operations : 3
+Total Write/Resets    : 0
+[Step 4] Write 100 to counter:
+Read back (expect 100):
+100
+[Step 5] Reset to 0:
+Read back (expect 0):
+0
+[Step 6] Final Stats:
+=== Counter Device Statistics ===
+Current Counter Value : 1
+Total Read Operations : 5
+Total Write/Resets    : 2
+=== TASK 2 TEST COMPLETED ===

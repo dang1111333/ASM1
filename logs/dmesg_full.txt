@@ -1,0 +1,37 @@
+asgn1_driver: Module loaded with major=241
+asgn1_driver: Device opened (open_count=1)
+asgn1_driver: [IOCTL] GET_VERSION returned
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=2)
+asgn1_driver: [IOCTL] SET_MODE to 1
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=3)
+asgn1_driver: Written 11 bytes, mode=1
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=4)
+asgn1_driver: Read 11 bytes (read_count=1)
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=5)
+asgn1_driver: [IOCTL] SET_MODE to 0
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=6)
+asgn1_driver: Written 21 bytes, mode=0
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=7)
+asgn1_driver: Read 21 bytes (read_count=2)
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=8)
+asgn1_driver: [IOCTL] GET_STATS dispatched
+asgn1_driver: Device closed
+asgn1_driver: Device opened (open_count=9)
+asgn1_driver: [IOCTL] Buffer and counters reset
+asgn1_driver: Device closed
+counter_driver: Registered successfully as /dev/counter (major=10, minor=125)
+counter_driver: Read val=0, incremented to 1
+counter_driver: Read val=1, incremented to 2
+counter_driver: Read val=2, incremented to 3
+counter_driver: Counter set to 100
+counter_driver: Read val=100, incremented to 101
+counter_driver: Counter set to 0
+counter_driver: Read val=0, incremented to 1
+counter_driver: Unregistered successfully
